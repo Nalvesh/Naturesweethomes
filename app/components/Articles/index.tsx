@@ -178,12 +178,12 @@ const postData: DataType[] = [
         heading2: '2 BHK Villa in Panchgani',
         name: "astonishing villa with lavish amenities",
         date: 'By NatureSweetHomes',
-        imgSrc: '/images/articles/seraphic.jpeg',
+        imgSrc: '/images/articles/sera1.jpeg',
         slideshowImages: [
-            '/images/articles/seraphic2.jpeg',
-            '/images/articles/seraphic3.jpeg',
-            '/images/articles/seraphic4.jpeg',
-            '/images/articles/seraphic.jpeg']
+            '/images/articles/sera2.jpeg',
+            '/images/articles/sera3.jpeg',
+            '/images/articles/sera4.jpeg',
+            '/images/articles/sera1.jpeg']
     },
     {
         time: "Enquire Now",
@@ -191,12 +191,12 @@ const postData: DataType[] = [
         heading2: 'Lavish 3 BHK villa in Lonavala',
         name: "stunning views & breathtaking landscapes",
         date: 'By NatureSweetHomes',
-        imgSrc: '/images/articles/3bhk.jpeg',
+        imgSrc: '/images/articles/bhk1.jpeg',
         slideshowImages: [
-            '/images/articles/3bhk2.jpeg',
-            '/images/articles/3bhk3.jpeg',
-            '/images/articles/3bhk4.jpeg',
-            '/images/articles/3bhk.jpeg']
+            '/images/articles/bhk2.jpeg',
+            '/images/articles/bhk3.jpeg',
+            '/images/articles/bhk4.jpeg',
+            '/images/articles/bhk1.jpeg']
     },
     {
         time: "Enquire Now",
