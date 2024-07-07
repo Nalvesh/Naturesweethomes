@@ -1,11 +1,10 @@
-"use client"
+"use client";
 import { Disclosure } from '@headlessui/react';
 import Link from 'next/link';
 import React from 'react';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
-import logo from "./public/images/banner/logo.jpeg";
 import Image from "next/image";
 
 interface NavigationItem {
@@ -33,11 +32,11 @@ const Navbar = () => {
     return (
         <Disclosure as="nav" className="navbar">
             <>
-            <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-8">
+                <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-8">
                     <div className="relative flex h-12 sm:h-20 items-center justify-between">
                         <div className="flex flex-1 items-center">
                             <div className='flex items-center space-x-2'>
-                                <Image src="/images/banner/logo.png" alt="hero-image" width={75} height={75} />
+                                <Image src={"/images/banner/logo.png"} alt="hero-image" width={75} height={75} />
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-black'>
                                     NatureSweetHomes
                                 </Link>
@@ -45,7 +44,7 @@ const Navbar = () => {
                         </div>
 
                         {/* LINKS */}
-                        <div className="hidden lg:flex items-center border-right ">
+                        <div className="hidden lg:flex items-center border-right">
                             <div className="flex justify-end space-x-4">
                                 {navigation.map((item) => (
                                     <Link
@@ -65,24 +64,21 @@ const Navbar = () => {
 
                         {/* CONTACT US BUTTON */}
                         <a href="https://api.whatsapp.com/send?phone=918010368931" className='hidden lg:flex justify-end items-center text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-blue hover:text-white'>
-                            <img src="/images/footer/whatsappgreen.svg" alt="WhatsApp Logo" className="w-6 h-6 mr-2" />
+                            <Image src="/images/footer/whatsappgreen.svg" alt="WhatsApp Logo" width={24} height={24} className="mr-2" />
                             Enquire Now
                         </a>
 
                         {/* DRAWER FOR MOBILE VIEW */}
 
                         {/* DRAWER ICON */}
-
                         <div className='block lg:hidden'>
                             <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
                         </div>
 
                         {/* DRAWER LINKS DATA */}
-
                         <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
                             <Drawerdata />
                         </Drawer>
-
                     </div>
                 </div>
             </>

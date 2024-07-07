@@ -1,11 +1,10 @@
 "use client";
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
-
+import { useEffect, useRef, useState, useMemo } from "react";
 
 const Banner = () => {
     const [currentImage, setCurrentImage] = useState(0); // State to track current image index
-    const images = ["/images/banner/bg1.jpg", "/images/banner/bg2.jpg", "/images/banner/bg3.jpg"]; // Array of image paths for slideshow
+    const images = useMemo(() => ["/images/banner/bg1.jpg", "/images/banner/bg2.jpg", "/images/banner/bg3.jpg"], []); // Memoized array of image paths for slideshow
     const parallaxRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
