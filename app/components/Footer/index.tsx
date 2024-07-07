@@ -46,7 +46,7 @@ const footer = () => {
                         <h4 className='text-white text-xl font-semibold leading-9 mb-2 lg:mb-5'>Or feel free to call us at <br/> +91 8010368931</h4>
                         <div className='flex gap-4'>
                             <div className='footer-icons'>
-                                <Link href="https://facebook.com/Naturesweethomes"><Image src={'/images/footer/vec.svg'} alt="facebook" width={15} height={20} /></Link>
+                                <Link href="https://facebook.com/profile.php?id=61561910677181"><Image src={'/images/footer/vec.svg'} alt="facebook" width={15} height={20} /></Link>
                             </div>                                                                                      
                             <div className='footer-icons'>
                                 <Link href="https://wa.me/918010368931"><Image src={'/images/footer/whatsappf.png'} alt="twitter" width={20} height={20} /></Link>
@@ -89,7 +89,7 @@ const footer = () => {
                         </div>
                         <div className="flex justify-center md:justify-end">
                             <Link href="/">
-                                <h3 className="text-offwhite pr-6">Developed By Ritesh & Nalvesh</h3>
+                                <h3 className="text-offwhite pr-6">Developed By Ritesh & Nalvesh. <br/> Reach us - nalveshmahajan@gmail.com</h3>
                             </Link>
                             {/* <Link href="/">
                                 <h3 className="text-offwhite pl-6 border-solid border-l border-footer">Ritesh | Nalvesh</h3>
