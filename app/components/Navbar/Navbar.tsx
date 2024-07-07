@@ -5,7 +5,6 @@ import React from 'react';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
-import Contactusform from './Contactus';
 import logo from "./public/images/banner/logo.jpeg";
 import Image from "next/image";
 
