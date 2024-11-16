@@ -185,19 +185,19 @@ const postData: DataType[] = [
             '/images/articles/sera4.jpeg',
             '/images/articles/sera1.jpeg']
     },
-    {
-        time: "Enquire Now",
-        heading: '3 BHK Pool Villa',
-        heading2: 'Lavish 3 BHK villa in Lonavala',
-        name: "stunning views & breathtaking landscapes",
-        date: 'By NatureSweetHomes',
-        imgSrc: '/images/articles/bhk1.jpeg',
-        slideshowImages: [
-            '/images/articles/bhk2.jpeg',
-            '/images/articles/bhk3.jpeg',
-            '/images/articles/bhk4.jpeg',
-            '/images/articles/bhk1.jpeg']
-    },
+    // {
+    //     time: "Enquire Now",
+    //     heading: '3 BHK Pool Villa',
+    //     heading2: 'Lavish 3 BHK villa in Lonavala',
+    //     name: "stunning views & breathtaking landscapes",
+    //     date: 'By NatureSweetHomes',
+    //     imgSrc: '/images/articles/bhk1.jpeg',
+    //     slideshowImages: [
+    //         '/images/articles/bhk2.jpeg',
+    //         '/images/articles/bhk3.jpeg',
+    //         '/images/articles/bhk4.jpeg',
+    //         '/images/articles/bhk1.jpeg']
+    // },
     {
         time: "Enquire Now",
         heading: 'Mystique Villa',
